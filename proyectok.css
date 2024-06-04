@@ -1,0 +1,86 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgba(0, 0, 0, 0.7) url(netflix.webp);
+    background-blend-mode:darken ;
+}
+
+.logo{
+    width: 12%;
+}
+/**.logo{
+    color: #e50914;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}**/
+.btn{
+    padding: 8px;
+    color: white;
+    background-color:  #e50914;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+.nav{
+    padding-top: 5px;
+    padding-left: 2vw;
+    padding-right: 5vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+select{
+    margin-left: 65%;
+    padding: 8px;
+}
+
+.content{
+    color: white;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 18%;
+}
+
+.content h1{
+    font-size: 40px;
+    padding-left: 18%;
+    
+    
+}
+
+.content h2{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.content p{
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 12%;
+}
+.mail{
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mail input{
+    outline: none;
+    border: none;
+    padding: 12px 10px;
+    size: 1em;
+
+}
+
+.mail a{
+    height: fit-content;
+    background-color:  #e50914;
+    color: white;
+    padding: 18px 12px;
+    text-decoration: none;
+}
